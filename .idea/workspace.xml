@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7a39ff1-9526-4058-a73f-fe2cb845f57c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/functional_tests/base.py" afterPath="$PROJECT_DIR$/functional_tests/base.py" />
-      <change beforePath="$PROJECT_DIR$/functional_tests/test_layout_and_styling.py" afterPath="$PROJECT_DIR$/functional_tests/test_layout_and_styling.py" />
       <change beforePath="$PROJECT_DIR$/functional_tests/test_list_item_validation.py" afterPath="$PROJECT_DIR$/functional_tests/test_list_item_validation.py" />
-      <change beforePath="$PROJECT_DIR$/functional_tests/test_simple_list_creation.py" afterPath="$PROJECT_DIR$/functional_tests/test_simple_list_creation.py" />
-      <change beforePath="$PROJECT_DIR$/lists/static/base.css" afterPath="$PROJECT_DIR$/lists/static/base.css" />
+      <change beforePath="$PROJECT_DIR$/lists/templates/base.html" afterPath="$PROJECT_DIR$/lists/templates/base.html" />
       <change beforePath="$PROJECT_DIR$/lists/tests/test_views.py" afterPath="$PROJECT_DIR$/lists/tests/test_views.py" />
       <change beforePath="$PROJECT_DIR$/lists/views.py" afterPath="$PROJECT_DIR$/lists/views.py" />
     </list>
@@ -19,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test_list_item_validation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functional_tests/test_list_item_validation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test_views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/tests/test_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="102" column="70" lean-forward="false" selection-start-line="102" selection-start-column="70" selection-end-line="102" selection-end-column="70" />
+            <state relative-caret-position="-393">
+              <caret line="122" column="32" lean-forward="false" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -51,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="113">
+              <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -86,8 +93,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -137,14 +144,14 @@
         <option value="$PROJECT_DIR$/lists/models.py" />
         <option value="$PROJECT_DIR$/lists/forms.py" />
         <option value="$PROJECT_DIR$/lists/tests/test_forms.py" />
-        <option value="$PROJECT_DIR$/lists/templates/base.html" />
         <option value="$PROJECT_DIR$/functional_tests/base.py" />
         <option value="$PROJECT_DIR$/functional_tests/test_layout_and_styling.py" />
-        <option value="$PROJECT_DIR$/functional_tests/test_list_item_validation.py" />
         <option value="$PROJECT_DIR$/functional_tests/test_simple_list_creation.py" />
         <option value="$PROJECT_DIR$/lists/static/base.css" />
+        <option value="$PROJECT_DIR$/lists/templates/base.html" />
         <option value="$PROJECT_DIR$/lists/tests/test_views.py" />
         <option value="$PROJECT_DIR$/lists/views.py" />
+        <option value="$PROJECT_DIR$/functional_tests/test_list_item_validation.py" />
       </list>
     </option>
   </component>
@@ -155,8 +162,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="138" />
-    <option name="y" value="172" />
+    <option name="x" value="131" />
+    <option name="y" value="328" />
     <option name="width" value="1190" />
     <option name="height" value="571" />
   </component>
@@ -282,7 +289,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="172" width="1190" height="571" extended-state="0" />
+    <frame x="131" y="328" width="1190" height="571" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -590,16 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functional_tests/test_list_item_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functional_tests/test_simple_list_creation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -623,16 +620,6 @@
         <state relative-caret-position="236">
           <caret line="43" column="72" lean-forward="false" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/tests/test_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="102" column="70" lean-forward="false" selection-start-line="102" selection-start-column="70" selection-end-line="102" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,14 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lists/migrations/0003_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -684,13 +663,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/tests/test_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="122" column="32" lean-forward="false" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lists/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="113">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional_tests/test_list_item_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
